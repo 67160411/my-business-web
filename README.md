@@ -30,13 +30,13 @@ my-business-web
 [หน้าแรก](index.html)
 ![index.html](images/01-index.png)
 
-[เกี่ยวกับเรา](about.html)
+[เกี่ยวกับ](about.html)
 ![index.html](images/01-about.png)
 ![index.html](images/02-about.png)
 
-[บริการของเรา](services.html)
+[บริการ](services.html)
 ![index.html](images/01-services.png)
 
-[ติดต่อเรา](contact.html)
+[ติดต่อ](contact.html)
 ![index.html](images/01-contact.png)
 ![index.html](images/02-contact.png)
