@@ -9,8 +9,8 @@
   <body>
     <header>
       <nav>
-        <h1>ติดต่อเรา</h1>
         <a href="index.html">กลับสู่หน้าแรก</a>
+        <h1>ติดต่อเรา</h1>
       </nav>
       <hr />
     </header>
@@ -21,18 +21,36 @@
 
         <form action="#" method="post">
           <label>ชื่อ - นามสกุล:</label><br />
-          <input type="text" name="fullname" required /><br /><br />
+          <input
+            type="text"
+            name="fullname"
+            placeholder="กรอกชื่อ - นามสกุล"
+            required
+          /><br /><br />
 
           <label>อีเมล:</label><br />
-          <input type="email" name="email" required /><br /><br />
+          <input
+            type="email"
+            name="email"
+            placeholder="example@gmail.com"
+            required
+          /><br /><br />
 
           <label>ข้อความติดต่อ:</label><br />
-          <textarea name="message" rows="10" required></textarea><br /><br />
+          <textarea
+            name="message"
+            rows="10"
+            placeholder="เขียนข้อความของคุณที่นี่..."
+            required
+          ></textarea
+          ><br /><br />
 
           <button type="submit">ส่งข้อความ</button>
         </form>
       </section>
+
       <hr />
+
       <section>
         <h2>ที่อยู่บริษัท</h2>
         <p>บริษัท ConcertTicket Co., Ltd.</p>
