@@ -1,14 +1,14 @@
-# ConcertTicket
+# ThaiTicketMajor
 
 เว็บไซต์สำหรับบริษัทผู้ให้บริการขายบัตรคอนเสิร์ตออนไลน์ ประกอบด้วยหน้าแรก หน้าเกี่ยวกับบริษัท หน้าบริการ และหน้าติดต่อ
 
 # ฟีเจอร์หลักของเว็บ
 
-- แสดงข้อมูลบริษัท ConcertTicket Co., Ltd.
+- แสดงข้อมูลบริษัทไทยทิคเก็ตเมเจอร์
 - นำเสนอประวัติ, ผู้บริหาร, เป้าหมาย (Mission), วิสัยทัศน์ (Vision)
 - แสดงบริการหลักในการขายบัตรคอนเสิร์ตออนไลน์
 - มีตารางเปรียบเทียบบริการ
-- มีแบบฟอร์มติดต่อ พร้อม Google Maps
+- มีแบบฟอร์มติดต่อ
 - เมนูนำทางเชื่อมทุกหน้า
 
 # โครงสร้างไฟล์
@@ -19,24 +19,27 @@ my-business-web
 ├── services.html
 ├── contact.html
 ├── images/
+│ └── about1.png
+│ └── about2.png
 │ └── Aungaing.png
-│ └── cat.webp
-│ └── catthree.jpg
-│ └── Logo.png
+│ └── contact.png
+│ └── index.png
+│ └── logo.webp
+│ └── services.png
+│ └── คมกริช.jpg
 └── README.md
 
 # ลิงก์ไปแต่ละหน้า (Page Links)
 
 [หน้าแรก](index.html)
-![index.html](images/01-index.png)
+![index.html](images/index.png)
 
 [เกี่ยวกับ](about.html)
-![index.html](images/01-about.png)
-![index.html](images/02-about.png)
+![index.html](images/about1.png)
+![index.html](images/about2.png)
 
 [บริการ](services.html)
-![index.html](images/01-services.png)
+![index.html](images/services.png)
 
 [ติดต่อ](contact.html)
-![index.html](images/01-contact.png)
-![index.html](images/02-contact.png)
+![index.html](images/contact.png)
