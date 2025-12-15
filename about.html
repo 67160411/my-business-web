@@ -1,62 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
+    <title>About - ThaiTicketMajor</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <header>
-      <header>
-        <nav>
-          <a href="index.html">กลับสู่หน้าแรก</a>
-          <h1>ประวัติ ThaiTicketMajor</h1>
-        </nav>
-        <hr />
-      </header>
-      <div class="About Us">
-        <p>
-          ได้เริ่มต้นดำเนินธุรกิจตั้งแต่ปี 2542 ด้วยวิสัยทัศน์
-          และประสบการณ์จึงทำให้สามารถตอบสนองความต้องการ ของผู้จัดงานแสดง
-          และประชาชนที่สนใจเข้าชม บริษัท ไทยทิคเก็ตเมเจอร์ จำกัด
-          มุ่งสร้างสรรค์บริการรูปแบบใหม่ เป็นตัวแทนจำหน่ายบัตรเข้าชมการแสดงแบบ
-          “Online Realtime” ในทุกๆช่องทางการจัดจำหน่าย ได้แก่
-          สาขาจุดจำหน่ายบัตร, การซื้อบัตรออนไลน์ (Website), ศูนย์บริการลูกค้า
-          (Call Center), การซื้อผ่านโทรศัพท์มือถือ (Wap)และ
-          สาขาจำหน่ายบัตรที่บริหารงานโดยพันธมิตรทางธุรกิจ จึงเรียกได้ว่า บริษัท
-          ไทยทิคเก็ตเมเจอร์ จำกัด
-          เป็นตัวแทนจำหน่ายบัตรแบบครบวงจรเต็มรูปแบบแห่งแรกในประเทศไทย
-        </p>
+    <header id="header">
+      <div class="logo">
+        <img src="images/logo.webp" alt="Logo" width="150" />
       </div>
-      <hr />
+      <nav>
+        <ul>
+          <li><a href="index.html" class="btn">หน้าแรก</a></li>
+          <li><a href="about.html" class="btn">เกี่ยวกับ</a></li>
+          <li><a href="services.html" class="btn">บริการ</a></li>
+          <li><a href="contact.html" class="btn">ติดต่อ</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
-      <section>
+
+    <main class="container">
+      <section class="about">
+        <h1>ประวัติ ThaiTicketMajor</h1>
+        <p class="intro">
+          บริษัท ไทยทิคเก็ตเมเจอร์ จำกัด เริ่มต้นดำเนินธุรกิจตั้งแต่ปี พ.ศ. 2542
+          ด้วยวิสัยทัศน์และประสบการณ์ที่ยาวนาน
+          เพื่อรองรับความต้องการของผู้จัดงานแสดงและประชาชนทั่วไป
+        </p>
+
+        <p>
+          ThaiTicketMajor เป็นตัวแทนจำหน่ายบัตรเข้าชมการแสดงแบบ
+          <strong>Online Realtime</strong>
+          ครอบคลุมทุกช่องทางการจัดจำหน่าย ไม่ว่าจะเป็นเว็บไซต์
+          จุดจำหน่ายบัตรตามสาขา ศูนย์บริการลูกค้า (Call Center)
+          การซื้อผ่านโทรศัพท์มือถือ และพันธมิตรทางธุรกิจ
+          จึงถือเป็นตัวแทนจำหน่ายบัตรแบบครบวงจรแห่งแรกในประเทศไทย
+        </p>
+      </section>
+
+      <section class="management">
         <h2>ผู้บริหาร</h2>
-        <figure>
-          <img src="images/คมกริช.jpg" alt="" width="200px" />
-          <figcaption>
-            <p>คมกริช ศิริรัตน์</p>
-            <p>ตำแหน่ง : กรรมการผู้จัดการ</p>
-          </figcaption>
-        </figure>
-        <figure>
-          <img src="images/Aungaing.png" alt="" width="200px" />
-          <figcaption>
-            <p>อุ๊งอิ๊ง วิรดา อินทร์ศวร</p>
-            <p>ตำแหน่ง : Web developer ดูแลระบบแบบครอบคลุม</p>
-          </figcaption>
-        </figure>
-        <hr />
-        <h3>เป้าหมาย (Mission):</h3>
-        <p>1.เป็นศูนย์กลางจำหน่ายบัตรครบวงจรในไทย</p>
-        <p>2.สนับสนุนผู้จัดงาน (Promoter / Organizer)</p>
-        <p>3.ขยายเครือข่ายและช่องทางการขายบัตร</p>
-        <p>4.สร้างประสบการณ์ลูกค้า (Customer Experience) ที่ดี</p>
-        <p>5.ขยายธุรกิจในด้าน ticketing และบริการเสริม</p>
-        <h3>วิสัยทัศน์ (Vision):</h3>
+
+        <div class="team">
+          <figure class="card">
+            <img src="images/คมกริช.jpg" alt="คมกริช ศิริรัตน์" width="200" />
+            <figcaption>
+              <p class="font-bold">คมกริช ศิริรัตน์</p>
+              <p>ตำแหน่ง : กรรมการผู้จัดการ</p>
+            </figcaption>
+          </figure>
+
+          <figure class="card">
+            <img
+              src="images/Aungaing.png"
+              alt="อุ๊งอิ๊ง วิรดา อินทร์ศวร"
+              width="200"
+            />
+            <figcaption>
+              <p class="font-bold">อุ๊งอิ๊ง วิรดา อินทร์ศวร</p>
+              <p>ตำแหน่ง : Web Developer</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="vision">
+        <h3>เป้าหมาย (Mission)</h3>
+        <ul>
+          <li>เป็นศูนย์กลางจำหน่ายบัตรครบวงจรในประเทศไทย</li>
+          <li>สนับสนุนผู้จัดงาน (Promoter / Organizer)</li>
+          <li>ขยายเครือข่ายและช่องทางการขายบัตร</li>
+          <li>สร้างประสบการณ์ลูกค้าที่ดี (Customer Experience)</li>
+          <li>ขยายธุรกิจด้าน Ticketing และบริการเสริม</li>
+        </ul>
+
+        <h3>วิสัยทัศน์ (Vision)</h3>
         <p>ศูนย์รวมการจำหน่ายบัตรงานแสดงของประเทศไทย</p>
       </section>
     </main>
+
+    <footer id="footer">
+      <p>&copy; 2025 ไทยทิคเก็ตเมเจอร์</p>
+      <p>อีเมล: cs@thaiticketmajor.com</p>
+      <p>โทร: 02 262 3456</p>
+    </footer>
   </body>
 </html>
