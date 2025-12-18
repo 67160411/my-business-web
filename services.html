@@ -2,48 +2,59 @@
 <html lang="th">
   <head>
     <meta charset="UTF-8" />
-    <meta name="services" content="width=device-width, initial-scale=1.0" />
-    <title>services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>บริการ - ThaiTicketMajor</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <header>
+    <header id="header">
+      <div class="logo">
+        <img src="images/logo.webp" alt="Logo" />
+      </div>
       <nav>
-        <a href="index.html">กลับสู่หน้าแรก</a>
-        <h1>บริการของเรา</h1>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="btn">หน้าแรก</a></li>
+          <li><a href="about.html" class="btn">เกี่ยวกับ</a></li>
+          <li><a href="services.html" class="btn">บริการ</a></li>
+          <li><a href="contact.html" class="btn">ติดต่อ</a></li>
+        </ul>
       </nav>
-      <hr />
     </header>
 
-    <main>
+    <main class="container">
       <section>
+        <h1>บริการของเรา</h1>
+        <ul>
+      <section class="card">
         <h3>1. จำหน่ายบัตรคอนเสิร์ตและอีเวนต์</h3>
         <p>
-          ขายตั๋วเข้างานหลากหลายประเภท เช่น คอนเสิร์ต, การแสดง, กีฬา, งานโชว์
-          และโรงภาพยนตร์ ช่องทางการขายทั้ง ออนไลน์ (เว็บไซต์/แอป/โทรศัพท์) และ
-          ออฟไลน์ (จุดขาย, เคาน์เตอร์, โรงภาพยนตร์, ร้านสะดวกซื้อ)
+          ขายตั๋วเข้างานหลากหลายประเภท เช่น คอนเสิร์ต การแสดง กีฬา งานโชว์
+          และโรงภาพยนตร์ รองรับทั้งช่องทางออนไลน์และออฟไลน์
         </p>
       </section>
-      <section>
+
+      <section class="card">
         <h3>2. ให้ระบบจำหน่ายบัตรแก่ผู้จัดงาน (Ticketing System)</h3>
         <p>
-          ระบบขายบัตรแบบครบวงจรสำหรับผู้จัดงาน บริหารผังที่นั่ง, ตรวจสอบยอดขาย,
-          ระบบสแกนเข้าหน้างาน, รายงานหลังบ้าน
+          ระบบขายบัตรแบบครบวงจรสำหรับผู้จัดงาน บริหารผังที่นั่ง ตรวจสอบยอดขาย
+          ระบบสแกนเข้าหน้างาน และรายงานหลังบ้าน
         </p>
       </section>
-      <section>
+
+      <section class="card">
         <h3>3. กระจายบัตรผ่านหลายช่องทาง (Distribution)</h3>
         <p>
           มีเครือข่ายจุดจำหน่ายหลายร้อยสาขาทั่วประเทศ
-          ทำให้ผู้ชมเข้าถึงบัตรได้ง่ายและสะดวก
+          ช่วยให้ผู้ชมเข้าถึงบัตรได้ง่าย สะดวก และรวดเร็ว
         </p>
+        <ul></ul>
       </section>
 
-      <hr />
-
       <section>
-        <h2>ตารางเปรียบเทียบบริการ</h2>
-        <table border="10">
+        <h2 style="text-align: center;">ตารางเปรียบเทียบบริการ</h2>
+
+        <table>
           <thead>
             <tr>
               <th>หัวข้อ</th>
@@ -51,42 +62,41 @@
               <th>ThaiTicketMajor</th>
             </tr>
           </thead>
-
           <tbody>
             <tr>
               <th class="col-title">การเลือกที่นั่ง</th>
               <td>บางเว็บไม่มีผังที่นั่ง หรืออัปเดตไม่เรียลไทม์</td>
-              <td>ผังที่นั่งแบบ Real-time อัปเดตทันที พร้อมเลือกที่นั่งเอง</td>
+              <td>ผังที่นั่งแบบ Real-time เลือกที่นั่งได้เอง</td>
             </tr>
-
             <tr>
               <th class="col-title">ตั๋วเข้างาน</th>
-              <td>บางเว็บต้องพิมพ์ตั๋ว หรือรับตั๋วหน้าหน้างาน</td>
-              <td>ตั๋วดิจิทัล + QR Code ใช้เข้างานทันที ลดปัญหาตั๋วปลอม</td>
+              <td>ต้องพิมพ์ตั๋วหรือรับหน้างาน</td>
+              <td>ตั๋วดิจิทัล + QR Code ใช้งานทันที</td>
             </tr>
-
             <tr>
-              <th class="col-title">ความปลอดภัยการชำระเงิน</th>
-              <td>อาจไม่มีระบบป้องกันหรือยืนยันตัวตนที่ดีพอ</td>
-              <td>
-                ระบบชำระเงินปลอดภัย รองรับบัตรเครดิต/เดบิต พร้อมยืนยันสถานะ
-              </td>
+              <th class="col-title">ความปลอดภัย</th>
+              <td>ระบบป้องกันไม่เพียงพอ</td>
+              <td>ระบบชำระเงินปลอดภัย รองรับหลายช่องทาง</td>
             </tr>
-
             <tr>
               <th class="col-title">ความรวดเร็ว</th>
-              <td>โหลดช้า หรือข้อมูลไม่ครบถ้วน</td>
-              <td>ระบบขายบัตรรวดเร็ว ใช้งานง่าย รองรับปริมาณผู้ซื้อสูง</td>
+              <td>โหลดช้า ข้อมูลไม่ครบ</td>
+              <td>ระบบเสถียร รองรับผู้ใช้งานจำนวนมาก</td>
             </tr>
-
             <tr>
-              <th class="col-title">บริการแจ้งเตือนกิจกรรมใหม่</th>
+              <th class="col-title">แจ้งเตือนกิจกรรม</th>
               <td>ไม่มีระบบแจ้งเตือน</td>
-              <td>แจ้งเตือนคอนเสิร์ตและงานใหม่ผ่านอีเมลและระบบสมาชิก</td>
+              <td>แจ้งเตือนผ่านอีเมลและระบบสมาชิก</td>
             </tr>
           </tbody>
         </table>
       </section>
     </main>
+
+    <footer id="footer">
+      <p>&copy; 2025 ไทยทิคเก็ตเมเจอร์</p>
+      <p>อีเมล: cs@thaiticketmajor.com</p>
+      <p>โทร: 02 262 3456</p>
+    </footer>
   </body>
 </html>

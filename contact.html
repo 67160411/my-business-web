@@ -2,63 +2,76 @@
 <html lang="th">
   <head>
     <meta charset="UTF-8" />
-    <meta name="Contact" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ติดต่อเรา - ThaiTicketMajor</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <header>
+    <header id="header">
+      <div class="logo">
+        <img src="images/logo.webp" alt="Logo" />
+      </div>
       <nav>
-        <a href="index.html">กลับสู่หน้าแรก</a>
-        <h1>ติดต่อเรา</h1>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="btn">หน้าแรก</a></li>
+          <li><a href="about.html" class="btn">เกี่ยวกับ</a></li>
+          <li><a href="services.html" class="btn">บริการ</a></li>
+          <li><a href="contact.html" class="btn">ติดต่อ</a></li>
+        </ul>
       </nav>
-      <hr />
     </header>
 
-    <main>
-      <section>
-        <h2>แบบฟอร์มติดต่อ</h2>
+    <main class="container">
+      <section class="contact-form">
+        <h1>ติดต่อเรา</h1>
 
+        <h2>แบบฟอร์มติดต่อ</h2>
         <form action="#" method="post">
-          <label>ชื่อ - นามสกุล:</label><br />
+          <label>ชื่อ - นามสกุล</label>
           <input
             type="text"
             name="fullname"
             placeholder="กรอกชื่อ - นามสกุล"
             required
-          /><br /><br />
+          />
 
-          <label>อีเมล:</label><br />
+          <label>อีเมล</label>
           <input
             type="email"
             name="email"
             placeholder="example@gmail.com"
             required
-          /><br /><br />
+          />
 
-          <label>ข้อความติดต่อ:</label><br />
+          <label>ข้อความติดต่อ</label>
           <textarea
             name="message"
-            rows="10"
+            rows="6"
             placeholder="เขียนข้อความของคุณที่นี่..."
             required
-          ></textarea
-          ><br /><br />
+          ></textarea>
 
           <button type="submit">ส่งข้อความ</button>
         </form>
       </section>
-      <hr />
-      <section>
+
+      <section class="contact-info">
         <h2>ที่อยู่บริษัท</h2>
-        <p>บริษัท ไทยทิคเก็ตเมเจอร์ จำกัด</p>
+        <p><strong>บริษัท ไทยทิคเก็ตเมเจอร์ จำกัด</strong></p>
         <p>
-          3199 อาคารมาลีนนท์ทาวเวอร์ ชั้น 27, ถนนพระราม 4, แขวงคลองตัน,
-          เขตคลองเตย, กรุงเทพฯ 10110 ประเทศไทย
+          3199 อาคารมาลีนนท์ทาวเวอร์ ชั้น 27 ถนนพระราม 4 แขวงคลองตัน เขตคลองเตย
+          กรุงเทพฯ 10110 ประเทศไทย
         </p>
         <p>โทร: 02 262 3456</p>
         <p>อีเมล: cs@thaiticketmajor.com</p>
       </section>
     </main>
+
+    <footer id="footer">
+      <p>&copy; 2025 ไทยทิคเก็ตเมเจอร์</p>
+      <p>อีเมล: cs@thaiticketmajor.com</p>
+      <p>โทร: 02 262 3456</p>
+    </footer>
   </body>
 </html>
