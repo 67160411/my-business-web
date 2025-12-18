@@ -165,6 +165,10 @@ nav ul {
   margin-bottom: 5px;
 }
 
+.title {
+  color: #781818;
+}
+
 #footer {
   background-color: #222;
   color: #f8eeee;
