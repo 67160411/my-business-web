@@ -33,13 +33,19 @@ my-business-web
 
 [หน้าแรก](index.html)
 ![index.html](images/index.png)
+![index.html](images/index-1.png)
 
 [เกี่ยวกับ](about.html)
 ![index.html](images/about1.png)
 ![index.html](images/about2.png)
+![index.html](images/about-1.png)
+![index.html](images/about-2.png)
 
 [บริการ](services.html)
 ![index.html](images/services.png)
+![index.html](images/services-1.png)
 
 [ติดต่อ](contact.html)
 ![index.html](images/contact.png)
+![index.html](images/contact-1.png)
+![index.html](images/contact-2.png)
