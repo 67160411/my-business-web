@@ -22,51 +22,41 @@
       </nav>
     </header>
 
-    <main class="container">
-      <section class="contact-form">
-        <h1>ติดต่อเรา</h1>
+    <section>
+      <form action="/portfolio" method="POST">
+        <fieldset>
+          <h2>ติดต่อเรา</h2>
+          <label for="contact-from-name">ชื่อ-นามสกุล:</label>
+          <br />
+          <input type="text" id="contact-from-name" name="name" />
+          <br />
 
-        <h2>แบบฟอร์มติดต่อ</h2>
-        <form action="#" method="post">
-          <label>ชื่อ - นามสกุล</label>
-          <input
-            type="text"
-            name="fullname"
-            placeholder="กรอกชื่อ - นามสกุล"
-            required
-          />
+          <label for="contact-from-email">email:</label>
+          <br />
+          <input type="email" id="contact-from-email" name="email" required />
+          <br />
 
-          <label>อีเมล</label>
-          <input
-            type="email"
-            name="email"
-            placeholder="example@gmail.com"
-            required
-          />
-
-          <label>ข้อความติดต่อ</label>
-          <textarea
-            name="message"
-            rows="6"
-            placeholder="เขียนข้อความของคุณที่นี่..."
-            required
-          ></textarea>
+          <label for="message">ข้อความติดต่อ:</label>
+          <br />
+          <textarea name="message" id="message" required></textarea>
+          <br />
 
           <button type="submit">ส่งข้อความ</button>
-        </form>
-      </section>
+          <button type="reset">ยกเลิก</button>
+        </fieldset>
+      </form>
+    </section>
 
-      <section class="contact-info">
-        <h2>ที่อยู่บริษัท</h2>
-        <p><strong>บริษัท ไทยทิคเก็ตเมเจอร์ จำกัด</strong></p>
-        <p>
-          3199 อาคารมาลีนนท์ทาวเวอร์ ชั้น 27 ถนนพระราม 4 แขวงคลองตัน เขตคลองเตย
-          กรุงเทพฯ 10110 ประเทศไทย
-        </p>
-        <p>โทร: 02 262 3456</p>
-        <p>อีเมล: cs@thaiticketmajor.com</p>
-      </section>
-    </main>
+    <section class="contact-info">
+      <h2>ที่อยู่บริษัท</h2>
+      <p><strong>บริษัท ไทยทิคเก็ตเมเจอร์ จำกัด</strong></p>
+      <p>
+        3199 อาคารมาลีนนท์ทาวเวอร์ ชั้น 27 ถนนพระราม 4 แขวงคลองตัน เขตคลองเตย
+        กรุงเทพฯ 10110 ประเทศไทย
+      </p>
+      <p>โทร: 02 262 3456</p>
+      <p>อีเมล: cs@thaiticketmajor.com</p>
+    </section>
 
     <footer id="footer">
       <p>&copy; 2025 ไทยทิคเก็ตเมเจอร์</p>

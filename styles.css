@@ -169,6 +169,67 @@ nav ul {
   color: #781818;
 }
 
+label {
+  display: block;
+  color: #6b4423;
+  font-weight: 500;
+  margin-top: 1.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #6b4423;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button[type="submit"] {
+  background-color: #6b4423;
+  color: white;
+  margin-right: 1rem;
+}
+
+button[type="submit"]:hover {
+  background-color: #8b5a3c;
+  transform: translateY(-2px);
+}
+
+button[type="reset"] {
+  background-color: #e0e0e0;
+  color: #555;
+}
+
+button[type="reset"]:hover {
+  background-color: #d0d0d0;
+}
+
 #footer {
   background-color: #222;
   color: #f8eeee;
